@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-	class FactoryMazda:Factory
+	class MazdaFactory:Factory
 	{
-		public FactoryMazda(string nameFactory) : base(nameFactory)
+		public MazdaFactory(string nameFactory) : base(nameFactory)
 		{
 		}
 		

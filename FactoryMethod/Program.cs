@@ -10,7 +10,7 @@ namespace FactoryMethod
 	{
 		static void Main(string[] args)
 		{
-			Factory factory=new FactoryMazda("LLC MODEX AUTO");
+			Factory factory=new MazdaFactory("LLC MODEX AUTO");
 			factory.ShowNameFactory();
 			factory.SpeedCar = "180";
 			Car carMazda = factory.CreateCar();
