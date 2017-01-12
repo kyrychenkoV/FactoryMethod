@@ -45,10 +45,9 @@
   <ItemGroup>
     <Compile Include="Car.cs" />
     <Compile Include="Factory.cs" />
-    <Compile Include="MazdaFactory.cs" />
+    <Compile Include="ConcreteFactory.cs" />
     <Compile Include="MazdaCar.cs" />
     <Compile Include="OpelCar.cs" />
-    <Compile Include="OpelFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -8,10 +8,18 @@ namespace FactoryMethod
 {
 	class MazdaCar:Car
 	{
-		//public string SpeedCar { get; set; }
-		public MazdaCar(string SpeedCar)
+		
+		public string SpeedCar { get; set; }
+		public MazdaCar( string speed)
 		{
-			Console.WriteLine("Factory built car model Mazda. Max speed="+SpeedCar);
+			SpeedCar = speed;
+			Console.WriteLine("Factory built car model Mazda+");
 		}
+
+		public void ShowSpeed()
+		{
+			Console.WriteLine("Max speed =" + SpeedCar);
+		}
+		
 	}
 }

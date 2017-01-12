@@ -9,14 +9,14 @@ namespace FactoryMethod
 	abstract class Factory
 	{
 		public string NameFactory { get; set; }
-		public string SpeedCar { get; set; }
+		
 
 		protected Factory(string nameFactory)
 		{
 			NameFactory = nameFactory;
 		}
 
-		public abstract Car CreateCar();
+		public abstract Car CreateCar(int cartype);
 
 		public void BasicEquipment()
 		{
