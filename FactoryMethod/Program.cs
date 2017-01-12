@@ -10,6 +10,20 @@ namespace FactoryMethod
 	{
 		static void Main(string[] args)
 		{
+			Factory factory=new FactoryMazda("LLC MODEX AUTO");
+			factory.ShowNameFactory();
+			factory.SpeedCar = "180";
+			Car carMazda = factory.CreateCar();
+			factory.BasicEquipment();
+			factory.AdditionalEquipment();
+			
+
+			factory =new OpelFactory("PLC Vinnichina Avto");
+			factory.ShowNameFactory();
+			Car carOpel = factory.CreateCar();
+			factory.BasicEquipment();
+			factory.AdditionalEquipment();
+
 		}
 	}
 }
